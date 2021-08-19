@@ -1,0 +1,16 @@
+
+SikoraDrop/appsettings.Development.json
+
+SikoraDrop/bin/Debug/net5.0/
+
+SikoraDrop/obj/Debug/net5.0/
+
+SikoraDrop/obj/
+
+SikoraDrop/Properties/
+
+SikoraDrop/.vs/SikoraDrop/v16/
+
+SikoraDrop/.vs/SikoraDrop/DesignTimeBuild/
+
+SikoraDrop/.vs/SikoraDrop/config/

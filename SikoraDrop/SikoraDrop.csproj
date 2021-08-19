@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>2a73360d-7f8f-4d39-9a5b-df0dbc135f7a</UserSecretsId>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebHooks.Receivers" Version="1.2.2" />
+    <PackageReference Include="Microsoft.AspNet.WebHooks.Receivers.Custom" Version="1.2.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+    <PackageReference Include="WooCommerceNET" Version="0.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\App\" />
+  </ItemGroup>
+
+</Project>
